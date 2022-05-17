@@ -1,0 +1,11 @@
+-- Entornos virtuales con python
+- python3 -m venv nombre_entorno = crea entorno virtual la -m funciona como
+  modulo, venv hace referencia al ambiente 
+- .\venv\Scripts\activate = activa el ambiente que se crea en windows
+- source venv/bin/activate = activa el ambiente en linux o mac
+- deactivate = desactiva el ambiente en el que se encuentra 
+- alias nombre_alias = "comando_a_abreviar"
+- pip freeze = analiza los paquetes o dependencias que se hayan instalado
+- pip freeze > requiriments.txt = guarda en txt las dependencias instaladas
+- pip install -r requiriments.txt = instala las dependencias que se le estan 
+  indicando con la extencion .txt
