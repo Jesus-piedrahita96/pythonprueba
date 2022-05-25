@@ -3,9 +3,9 @@ import numbers
 
 def read():
     numbers = []
-    with open("./archivos/numbers.txt", "r", encoding="utf-8") as f:
+    with open("./archivos/data.txt", "r", encoding="utf-8") as f:
         for line in f:
-            line = int(line)
+            #line = int(line)
             numbers.append(line)
     print(numbers)
 
@@ -19,8 +19,8 @@ def write():
 
 
 def run():
-    #read()
-    write()
+    read()
+    #write()
 
 
 if __name__ == '__main__':
