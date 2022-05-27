@@ -49,6 +49,11 @@ def cambiar_nombre():
     nombre_nuevo = cadena.replace("s","p")
     print(nombre_nuevo)
 
+def prueba():
+    print('hola bienvenido')
+    name = input('por favor dijite su nombre: ')
+    print(f'su nombre es {name} y tiene: {len(name)} caracteres')
+
+
 if __name__ == '__main__':
-    #num_reduce()
-    cambiar_nombre()
+    prueba()
